@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Retro Text Editor</string>
+    <string name="preferences">Voorkeuren</string>
+    <string name="fontOptions">Lettertype</string>
+    <string name="bigger">vergroten +</string>
+    <string name="smaller">verkleinen -</string>
+    <string name="monospace">monospace</string>
+    <string name="saveNow">OPSLAAN</string>
+    <string name="autoSave">automatisch opslaan</string>
+    <string name="ok">ok</string>
+    <string name="errAccess">fout bij openen</string>
+    <string name="errWrite">fout bij opslaan</string>
+    <string name="errRead">fout bij lezen</string>
+
+    <string name="info">Info ...</string>
+    <string name="flattr_this">Micro-donatie !</string>
+    <string name="projPage">Startpagina</string>
+
+    <string name="themes">Themas ...</string>
+    <string name="retro">Retro</string>
+    <string name="Day">Dag</string>
+    <string name="Night">Nacht</string>
+    <string name="Green">Green Punch</string>
+    <string name="Panther">Pink Panther</string>
+</resources>
