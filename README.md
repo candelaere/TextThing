@@ -2,36 +2,36 @@
 
 It is a simple text file editor for Android. You can use it via a file manager app. I use it to write some notes. The fixed default file path is `Documents/click.dummer.textthing/notes.txt` . If you open the app, this file will be opened, created and used for store.
 
-**There is no file manager integrated!**
-
-<a href="https://f-droid.org/repository/browse/?fdid=click.dummer.textthing" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="90"/></a>
-
-You can get a signed APK from here (Android 4.1+): [APK](https://github.com/no-go/TextThing/raw/master/app/release/click.dummer.textthing.apk)
-
-## App Icon
+**There is no file manager code integrated - it uses the system default**
 
 ![The App Icon](icon.png)
 
 ## Features
 
-- Themes: Retro, Day, Night
+- Themes: Retro, C64, Day, Night, Green Punch, Pink Panther
 - Text file editor for your favorite file manager (opens every plain Text files)
 - App creates and opens Documents/click.dummer.textthing/notes.txt as default
 - use the App to write notes
 - stores changes on closing or pausing the App (optionaly)
 - set your favorite font size and switch between normal or monospace style
-- languages: english, japanese, german, russian, french
+- languages: english, japanese, german, russian, french, brazilian portuguese
 - a **save now** button
 - very small widget added (needs phone restart)
+
+## Get the App
+
+You can get a signed APK (4.1+) from [here](https://raw.githubusercontent.com/no-go/TextThing/master/app/release/click.dummer.textthing.apk), but it could be a bit outdated.
+
+Alternative:
+
+<a href="https://f-droid.org/packages/click.dummer.textthing/" target="_blank">
+<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
 
 ## Screenshots
 
 The blue colors are fixed and based on the 1980er C64 Homecomputer. It works on 4.1.1+
 
 ![The blue colors are fixed and based on the 1980er C64 Homecomputer](screenshot-6.0.1.jpg) ![It runns under 4.1.1 Jelly Bean too.](screenshot-4.1.1.jpg)
-
-
 
 ### French translation
 
@@ -47,12 +47,16 @@ Thanks to [naofum](https://github.com/naofum) for a japanese translation!
 
 ![japanese translation](stuff/japanese_translation.jpg)
 
+### Brazilian Portuguese translation
+
+Thanks to [Paradoxo](https://www.youtube.com/user/Paradoxo10) for a brazilian portuguese translation!
+
 ## Links
 
-- [About Me](http://quantenwatch.de), [Jochen Peters Krefeld](http://dummer.click)
+- [Jochen Peters Krefeld](http://digisocken.de)
 - [App Home](http://no-go.github.io/TextThing/)
 - [Source](https://github.com/no-go/TextThing)
-- [APK File](https://raw.githubusercontent.com/no-go/TextThing/master/app/release/app-release.apk)
+- [maybe old APK File](https://github.com/no-go/TextThing/raw/master/app/release/click.dummer.textthing.apk)
 
 ## License
 
@@ -77,6 +81,18 @@ The google play store collect non-personal information such as the data of insta
 
 If you have any questions or concerns about my Privacy Policy or data processing, please contact me.
 
-## Special thanks
+## Special Thanks
 
 - Michael Grieswald on google play for a good/bad review. I made the "auto save" as an option after reading it.
+
+### Hints to fdroid
+
+to keep fdroiddata fork on your local and upstream fresh:
+
+- git add, commit, push
+- git remote add upstream https://gitlab.com/fdroid/fdroiddata.git
+- git fetch upstream
+- git pull upstream master (this is a merge)
+- git push
+
+other hints in Wortschatz repository
